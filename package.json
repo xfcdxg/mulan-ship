@@ -1,0 +1,23 @@
+{
+  "name": "mulan-ship",
+  "version": "1.0.0",
+  "description": "",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "start": "npm i; pm2 startOrRestart ecosystem.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xfcdxg/mulan-ship.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xfcdxg/mulan-ship/issues"
+  },
+  "homepage": "https://github.com/xfcdxg/mulan-ship#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
